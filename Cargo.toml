@@ -1,0 +1,11 @@
+[package]
+name = "horizon-mod-inventory-wizard"
+version = "2.3.3"
+edition = "2024"
+license = "MIT"
+publish = false
+description = "InventoryWizard for Horizon, a native mod: one-click inventory, hotbar and container sorting."
+
+# The mod's logic and its tests: the same file the bundle adds to the game.
+[lib]
+path = "mixins/inventory_wizard/runtime.rs"
