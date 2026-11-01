@@ -57,8 +57,8 @@ functions aren't a stable API, so a Horizon release that changes them needs a ne
 
 ```sh
 cargo test                                                           # the logic
-python3 native/tools/native.py check /path/to/InventoryWizard/horizon     # from horizon-mods: apply on Horizon, cargo check
-horizon-launcher native-build /path/to/InventoryWizard/horizon/mixins/inventory_wizard --trust-native-code
+python3 native/tools/native.py check /path/to/InventoryWizard-Horizon     # from horizon-mods: apply on Horizon, cargo check
+horizon-launcher native-build /path/to/InventoryWizard-Horizon/mixins/inventory_wizard --trust-native-code
 ```
 
 `native.py` needs Python 3.11+, Rust and rsync (WSL on Windows).
