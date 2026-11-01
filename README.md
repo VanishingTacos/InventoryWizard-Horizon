@@ -62,3 +62,12 @@ horizon-launcher native-build /path/to/InventoryWizard-Horizon/mixins/inventory_
 ```
 
 `native.py` needs Python 3.11+, Rust and rsync (WSL on Windows).
+
+## Package for the registry
+
+```sh
+python3 package.py      # target/inventory_wizard-<version>.hnmod, and its SHA-256
+```
+
+The same deterministic file as horizon-mods' `native.py package`, and it runs on Windows. Submit it at
+[playhorizon.dev/mods/submit](https://playhorizon.dev/mods/submit).
